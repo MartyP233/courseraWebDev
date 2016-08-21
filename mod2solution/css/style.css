@@ -1,4 +1,8 @@
+h1 {
+  color: green;
+}
+
 .section {
   border: 1px;
-  border-color: black
+  border-color: black;
 }
