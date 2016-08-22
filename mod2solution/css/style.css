@@ -1,3 +1,5 @@
+/************ BASE STYLES **********/
+
 * {
   box-sizing: border-box;
 }
@@ -14,21 +16,21 @@ h1, h2 {
 
 section {
   border:1px solid black;
-  width: 30%;
-  float: left;
-  position: relative;
   margin: 2% 1% 0% 1%;
+  position: relative;
+  float: left;
+  background-color: #C0C0C0;
 }
 
-#S1 {
+#heading1 {
   background-color: #fdae61;
 }
 
-#S2 {
+#heading2 {
   background-color: #abdda4;
 }
 
-#S3 {
+#heading3 {
   background-color: #2b83ba;
 }
 
@@ -40,13 +42,40 @@ h2 {
   padding: 0px 40px 0px 40px;
   position: absolute;
   right: 0px;
-  background-color: grey;
   color: white;
-  box-shadow: 0px 1px 1px white;
 }
 
 p {
   padding: 10px;
   position: relative;
   top: 20px;
+}
+
+/************ DESKTOP **********/
+
+@media (min-width: 992px) {
+  section {
+    position: relative;
+    width: 30%;
+    float: left;
+  }
+}
+
+/************ TABLET ***********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #S1, #S2 {
+    width: 46%;
+  }
+  #S3 {
+    width: 94%;
+  }
+}
+
+/************ MOBILE ***********/
+
+@media (max-width: 767px) {
+  section {
+    width: 95%;
+  }
 }
