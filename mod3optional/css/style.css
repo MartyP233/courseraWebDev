@@ -1,0 +1,31 @@
+body {
+  background-color: #F5EFED;
+}
+
+li {
+  background-color: #F1E1DD;
+  text-align: center;
+}
+
+h3 {
+  padding-top: 10px;
+}
+p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.section {
+  margin: 1vw;
+}
+
+#Chicken {
+    background-color: #DAF7A6;
+}
+
+#Beef {
+    background-color: #FFC300;
+}
+
+#Sushi {
+    background-color: #FF5733;
+}
